@@ -1,0 +1,24 @@
+
+# Ambiente virtual e Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Arquivos temporários
+.DS_Store
+Thumbs.db
+
+# Configurações locais do Streamlit
+.streamlit/secrets.toml
+
+# Dados originais e arquivos de auditoria
+data/raw/
+data/processed/conflitos_identificacao.csv
+
+# Configurações locais
+.env
+.env.*
+
+# Base completa de processamento
+data/processed/tradutores_tratados.csv
