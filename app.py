@@ -10,6 +10,7 @@ st.set_page_config(
     page_title="Tradutores Públicos Brasil",
     page_icon="🌎",
     layout="wide",
+    initial_sidebar_state="collapsed",
 )
 
 BASE_DIR = Path(__file__).resolve().parent
